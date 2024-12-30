@@ -51,7 +51,6 @@ public class InGameUi : MonoBehaviour
     }
     public void Yes()
     {
-        DataManager.Instance.playerData.playerPosition = player.transform.position;
         DataManager.Instance.playerData.currentStage = SceneManager.GetActiveScene().buildIndex - 1;
         DataManager.Instance.SavePlayerData();
         Time.timeScale = 1;

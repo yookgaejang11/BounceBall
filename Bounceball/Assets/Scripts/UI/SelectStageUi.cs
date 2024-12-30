@@ -32,9 +32,9 @@ public class SelectStageUi : MonoBehaviour
         SceneManager.LoadScene(2);
     }
 
-    public void OtherStage()
+    public void otherStage()
     {
-        Debug.Log("아직 제작안함 ㅅㄱ");
+        
     }
 
     public void Return()

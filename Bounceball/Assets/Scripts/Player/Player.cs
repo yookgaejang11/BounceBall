@@ -17,14 +17,7 @@ public class Player : MonoBehaviour
 
     private void Start()
     {
-        if(DataManager.Instance.playerData.playerPosition != new Vector3(0, 0, 0))
-        {
-            transform.position = DataManager.Instance.playerData.playerPosition;
-        }
-        else
-        {
-            transform.position = spawnpoint.transform.position;
-        }
+        transform.position = spawnpoint.transform.position;
     }
 
     private void OnBecameInvisible()

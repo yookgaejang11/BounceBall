@@ -59,7 +59,6 @@ public class DataManager : MonoBehaviour
     {
         public int clearStage = 0;
         public int currentStage = 0;
-        public Vector3 playerPosition = new Vector3(0,0,0);
     }
 
 }
